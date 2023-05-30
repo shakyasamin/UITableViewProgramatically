@@ -14,6 +14,8 @@
 		2888909E2A25B7D400AB260A /* VideoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2888909D2A25B7D400AB260A /* VideoListVC.swift */; };
 		288890A02A25B99100AB260A /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2888909F2A25B99100AB260A /* UIView+Ext.swift */; };
 		288890A22A25BCF700AB260A /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288890A12A25BCF700AB260A /* VideoCell.swift */; };
+		288890A42A25C68100AB260A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288890A32A25C68100AB260A /* Video.swift */; };
+		288890A62A25C6C600AB260A /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288890A52A25C6C600AB260A /* Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2888909D2A25B7D400AB260A /* VideoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListVC.swift; sourceTree = "<group>"; };
 		2888909F2A25B99100AB260A /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		288890A12A25BCF700AB260A /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		288890A32A25C68100AB260A /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		288890A52A25C6C600AB260A /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,13 @@
 				288890872A25B1AC00AB260A /* AppDelegate.swift */,
 				288890892A25B1AC00AB260A /* SceneDelegate.swift */,
 				2888909D2A25B7D400AB260A /* VideoListVC.swift */,
+				288890A52A25C6C600AB260A /* Constraints.swift */,
 				288890A12A25BCF700AB260A /* VideoCell.swift */,
 				2888909F2A25B99100AB260A /* UIView+Ext.swift */,
 				288890902A25B1AD00AB260A /* Assets.xcassets */,
 				288890922A25B1AD00AB260A /* LaunchScreen.storyboard */,
 				288890952A25B1AD00AB260A /* Info.plist */,
+				288890A32A25C68100AB260A /* Video.swift */,
 			);
 			path = UITableViewProgramatically;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				288890A22A25BCF700AB260A /* VideoCell.swift in Sources */,
+				288890A62A25C6C600AB260A /* Constraints.swift in Sources */,
+				288890A42A25C68100AB260A /* Video.swift in Sources */,
 				288890A02A25B99100AB260A /* UIView+Ext.swift in Sources */,
 				2888909E2A25B7D400AB260A /* VideoListVC.swift in Sources */,
 				288890882A25B1AC00AB260A /* AppDelegate.swift in Sources */,

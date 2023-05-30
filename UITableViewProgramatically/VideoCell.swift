@@ -27,6 +27,11 @@ class VideoCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    func set(video:Video){
+        videoImageView.image = video.image
+        videoTitleLabel.text = video.title
+    }
+    
     func configureImageView() {
         videoImageView.layer.cornerRadius = 10
         videoImageView.clipsToBounds = true
